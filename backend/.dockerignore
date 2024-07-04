@@ -1,0 +1,17 @@
+.dockerignore
+.git/
+.github/
+.gitignore
+**/__pycache__/
+**/*.md
+**/*.mo
+**/*.pyc
+**/*.pyo
+db.sqlite3
+Dockerfile
+docs
+Jenkinsfile
+nginx
+README.md
+scripts
+venv

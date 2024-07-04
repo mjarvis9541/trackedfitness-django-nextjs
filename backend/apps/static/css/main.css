@@ -1,0 +1,567 @@
+/*!*******************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss ***!
+  \*******************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap);
+/*!***********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/main.scss (1) ***!
+  \***********************************************************************************************************************************************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.mt-4 {
+  margin-top: 40px;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.btn {
+  white-space: nowrap;
+  background: #f2f2f2;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  color: #404040;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.375rem 0.75rem;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: #d9d9d9;
+  text-decoration: none;
+}
+
+.btn-primary {
+  border: 1px solid #2962ff;
+  background: #2962ff;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #0041f5;
+}
+
+.btn-secondary {
+  background: #4caf50;
+  color: #fff;
+}
+.btn-secondary:hover {
+  background: #3d8b40;
+}
+
+.btn-danger {
+  border: 1px solid #d50000;
+  background: #d50000;
+  color: #fff;
+}
+.btn-danger:hover {
+  background: #a20000;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem;
+  transition: background 0.2s;
+  background: #e6e6e6;
+  border: 1px solid #808080;
+  border-radius: 2px;
+}
+
+.form-2-col-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1rem;
+  -moz-column-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.form-control {
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 6px 12px;
+  min-height: 2.5rem;
+  border: 1px solid #e6e6e6;
+  /* transition: 0.2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out; */
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.form-control-no-mb {
+  -webkit-appearance: none;
+  width: 100%;
+  padding: 6px 12px;
+  min-height: 2.5rem;
+  border: 1px solid #e6e6e6;
+  /* transition: 0.2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out; */
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-control:focus,
+.form-control-no-mb:focus {
+  -webkit-appearance: none;
+  /* transition: 0.3s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out; */
+  border: 1px solid rgba(13, 110, 253, 0.5);
+  box-shadow: 0px 0px 4px 4px rgba(13, 110, 253, 0.25);
+  border-radius: 4px;
+}
+
+.form-invalid {
+  border: 1px solid var(--error);
+}
+
+.nav-container {
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 0.75rem 1.5rem 0.75rem 0;
+}
+
+.nav-cta {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-cta li {
+  padding: 0.75rem 0 0.75rem 1.5rem;
+}
+
+/* Navbar 2 */
+.nav-container-2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+}
+
+/* .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+} */
+/* .topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+} */
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* Footer */
+footer {
+  background: #5e6163;
+  color: #fff;
+}
+
+.container-footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem 1rem;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination a {
+  padding: 0 1rem;
+}
+
+.pagination .page-btn {
+  padding: 0 1rem;
+}
+
+.table {
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #f2f2f2;
+  padding: 0.5rem 0.5rem;
+}
+
+.table-50 {
+  width: 50%;
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+/* Diet Grid */
+.diary_grid {
+  display: grid;
+  grid-template-columns: auto 4.5fr repeat(9, 1fr);
+  grid-gap: 1px;
+  gap: 1px;
+}
+
+/* Title */
+.diary_title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  box-shadow: 0 0 0 1px #f2f2f2;
+}
+
+/* Data */
+.diary_item {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  box-shadow: 0 0 0 1px #f2f2f2;
+}
+
+/* Total */
+.diary_total_title {
+  padding: 0.25rem 0.5rem;
+  box-shadow: 0 0 0 1px #f2f2f2;
+}
+
+.diary_total {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  box-shadow: 0 0 0 1px #f2f2f2;
+}
+
+.span-col-3 {
+  grid-column: span 3 / auto;
+}
+
+.span-col-10 {
+  grid-column: span 10 / auto;
+}
+
+.diary_empty_row {
+  margin: 0.25rem;
+  grid-column: span 11 / auto;
+}
+
+[dir="ltr"] .end {
+  text-align: right;
+}
+
+[dir="rtl"] .end {
+  text-align: left;
+}
+
+.start {
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.center {
+  justify-content: center;
+  text-align: center;
+}
+
+.end {
+  justify-content: flex-end;
+  text-align: end;
+}
+
+/* Medium */
+@media screen and (max-width: 800px) {
+  .diary_grid {
+    display: grid;
+    grid-template-columns: auto 3fr repeat(5, 1fr);
+  }
+
+  .diary_item {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .hidden-md {
+    display: none;
+  }
+
+  .diary_empty_row {
+    grid-column: span 7 / auto;
+  }
+
+  .span-col-10 {
+    grid-column: span 6 / auto;
+  }
+}
+/* Small */
+@media screen and (max-width: 600px) {
+  .diary_grid {
+    display: grid;
+    grid-template-columns: auto 3fr 1fr 1fr;
+  }
+
+  .diary_item {
+    padding: 0.25rem 0.5rem;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .diary_empty_row {
+    grid-column: span 4 / auto;
+  }
+
+  .span-col-10 {
+    grid-column: span 3 / auto;
+  }
+}
+.diary_detail__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+@media screen and (max-width: 800px) {
+  .diary_detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .diary_detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.food_list__titlebar {
+  background: #007fff;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: -1rem -1rem 1rem -1rem;
+  padding: 0.5rem 1rem;
+}
+.food_list__titlebar > h1 {
+  size: 1.5rem;
+  margin: 0;
+}
+
+.food_list {
+  display: grid;
+  grid-template-columns: 3fr repeat(9, 1fr);
+}
+.food_list > .end {
+  display: flex;
+  align-items: center;
+}
+.food_list__title {
+  border-bottom: 1px solid #f2f2f2;
+  font-weight: bold;
+  padding: 0.25rem 0;
+}
+.food_list__item {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0.5rem 0;
+  line-height: 1.25;
+}
+.food_list__item__value {
+  margin-right: 0.25rem;
+}
+.food_list__item__brand > a {
+  color: #000;
+}
+.food_list__item__brand > a:hover {
+  text-decoration: none;
+}
+
+.food_detail__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.food_detail__content__nutrition_data {
+  grid-row: span 2 / auto;
+}
+.food_detail__content__nutrition_data__table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .food_detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .food_detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.food__btn {
+  padding: 0.5rem 1rem;
+  background: #007fff;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.food__btn:hover {
+  text-decoration: none;
+  background: #0066cc;
+  transition: 0.2s ease-in-out;
+}
+
+.food_detail__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.food_detail__content__nutrition_data {
+  grid-row: span 2 / auto;
+}
+.food_detail__content__nutrition_data__table {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 800px) {
+  .food_detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .food_detail__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-picture {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+  min-height: 100%;
+  line-height: 1.5;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.container {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/*# sourceMappingURL=main.css.map*/
